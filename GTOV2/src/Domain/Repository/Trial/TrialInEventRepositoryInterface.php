@@ -7,7 +7,7 @@ namespace App\Domain\Repository\Trial;
 use App\Domain\Entity\TrialInEvent;
 use App\Helper\Filter\TrialInEventFilter;
 
-interface TrialInEventRepository
+interface TrialInEventRepositoryInterface
 {
     /**
      * @param TrialInEventFilter $trialInEventFilter

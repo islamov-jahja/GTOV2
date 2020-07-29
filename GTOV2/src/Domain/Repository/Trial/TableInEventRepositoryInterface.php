@@ -7,7 +7,7 @@ namespace App\Domain\Repository\Trial;
 use App\Domain\Entity\TableInEvent;
 use App\Helper\Filter\TableInEventFilter;
 
-interface TableInEventRepository
+interface TableInEventRepositoryInterface
 {
     /**
      * @param TableInEventFilter $tableInEventFilter

@@ -7,7 +7,7 @@ namespace App\Domain\Repository\Team;
 use App\Domain\Entity\Team;
 use App\Helper\Filter\TeamFilter;
 
-interface TeamRepository
+interface TeamRepositoryInterface
 {
     /**
      * @param TeamFilter $teamFilter
