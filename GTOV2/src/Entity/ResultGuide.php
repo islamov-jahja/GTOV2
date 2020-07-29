@@ -64,7 +64,7 @@ class ResultGuide
     private $resultForBronze;
 
     /**
-     * @var \GroupResultGuide
+     * @var GroupResultGuide
      *
      * @ORM\ManyToOne(targetEntity="GroupResultGuide")
      * @ORM\JoinColumns({
@@ -74,7 +74,7 @@ class ResultGuide
     private $idGroupResultGuide;
 
     /**
-     * @var \AgeCategory
+     * @var AgeCategory
      *
      * @ORM\ManyToOne(targetEntity="AgeCategory")
      * @ORM\JoinColumns({
@@ -84,7 +84,7 @@ class ResultGuide
     private $idAgeCategory;
 
     /**
-     * @var \Trial
+     * @var Trial
      *
      * @ORM\ManyToOne(targetEntity="Trial")
      * @ORM\JoinColumns({
@@ -205,6 +205,4 @@ class ResultGuide
 
         return $this;
     }
-
-
 }

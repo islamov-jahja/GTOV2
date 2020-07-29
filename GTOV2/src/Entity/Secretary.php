@@ -22,7 +22,7 @@ class Secretary
     private $secretaryId;
 
     /**
-     * @var \Event
+     * @var Event
      *
      * @ORM\ManyToOne(targetEntity="Event")
      * @ORM\JoinColumns({
@@ -32,7 +32,7 @@ class Secretary
     private $event;
 
     /**
-     * @var \User
+     * @var User
      *
      * @ORM\ManyToOne(targetEntity="User")
      * @ORM\JoinColumns({
@@ -69,6 +69,4 @@ class Secretary
 
         return $this;
     }
-
-
 }

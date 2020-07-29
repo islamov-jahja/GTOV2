@@ -22,7 +22,7 @@ class SecretaryOnOrganization
     private $secretaryOnOrganizationId;
 
     /**
-     * @var \User
+     * @var User
      *
      * @ORM\ManyToOne(targetEntity="User")
      * @ORM\JoinColumns({
@@ -32,7 +32,7 @@ class SecretaryOnOrganization
     private $user;
 
     /**
-     * @var \Organization
+     * @var Organization
      *
      * @ORM\ManyToOne(targetEntity="Organization")
      * @ORM\JoinColumns({
@@ -69,6 +69,4 @@ class SecretaryOnOrganization
 
         return $this;
     }
-
-
 }

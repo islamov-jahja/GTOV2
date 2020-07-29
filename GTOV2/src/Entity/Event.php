@@ -57,7 +57,7 @@ class Event
     private $status;
 
     /**
-     * @var \Organization
+     * @var Organization
      *
      * @ORM\ManyToOne(targetEntity="Organization")
      * @ORM\JoinColumns({
@@ -142,6 +142,4 @@ class Event
 
         return $this;
     }
-
-
 }

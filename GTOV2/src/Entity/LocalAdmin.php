@@ -22,7 +22,7 @@ class LocalAdmin
     private $localAdminId;
 
     /**
-     * @var \Organization
+     * @var Organization
      *
      * @ORM\ManyToOne(targetEntity="Organization")
      * @ORM\JoinColumns({
@@ -32,7 +32,7 @@ class LocalAdmin
     private $organization;
 
     /**
-     * @var \User
+     * @var User
      *
      * @ORM\ManyToOne(targetEntity="User")
      * @ORM\JoinColumns({
@@ -69,6 +69,4 @@ class LocalAdmin
 
         return $this;
     }
-
-
 }

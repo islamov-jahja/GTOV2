@@ -63,6 +63,4 @@ class RefreshToken
 
         return $this;
     }
-
-
 }

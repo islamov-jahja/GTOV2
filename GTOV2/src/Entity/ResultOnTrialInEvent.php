@@ -139,6 +139,4 @@ class ResultOnTrialInEvent
 
         return $this;
     }
-
-
 }

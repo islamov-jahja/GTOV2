@@ -36,7 +36,7 @@ class TrialInEvent
     private $startDateTime;
 
     /**
-     * @var \Trial
+     * @var Trial
      *
      * @ORM\ManyToOne(targetEntity="Trial")
      * @ORM\JoinColumns({
@@ -46,7 +46,7 @@ class TrialInEvent
     private $trial;
 
     /**
-     * @var \Event
+     * @var Event
      *
      * @ORM\ManyToOne(targetEntity="Event")
      * @ORM\JoinColumns({
@@ -107,6 +107,4 @@ class TrialInEvent
 
         return $this;
     }
-
-
 }

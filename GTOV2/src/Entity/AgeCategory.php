@@ -234,6 +234,4 @@ class AgeCategory
 
         return $this;
     }
-
-
 }

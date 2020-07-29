@@ -36,7 +36,7 @@ class EventParticipant
     private $confirmed;
 
     /**
-     * @var \Event
+     * @var Event
      *
      * @ORM\ManyToOne(targetEntity="Event")
      * @ORM\JoinColumns({
@@ -46,7 +46,7 @@ class EventParticipant
     private $event;
 
     /**
-     * @var \User
+     * @var User
      *
      * @ORM\ManyToOne(targetEntity="User")
      * @ORM\JoinColumns({
@@ -107,6 +107,4 @@ class EventParticipant
 
         return $this;
     }
-
-
 }

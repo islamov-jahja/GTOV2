@@ -29,7 +29,7 @@ class Team
     private $name;
 
     /**
-     * @var \Event
+     * @var Event
      *
      * @ORM\ManyToOne(targetEntity="Event")
      * @ORM\JoinColumns({
@@ -66,6 +66,4 @@ class Team
 
         return $this;
     }
-
-
 }

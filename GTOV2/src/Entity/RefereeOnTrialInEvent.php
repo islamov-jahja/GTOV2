@@ -29,7 +29,7 @@ class RefereeOnTrialInEvent
     private $userId;
 
     /**
-     * @var \TrialInEvent
+     * @var TrialInEvent
      *
      * @ORM\ManyToOne(targetEntity="TrialInEvent")
      * @ORM\JoinColumns({
@@ -66,6 +66,4 @@ class RefereeOnTrialInEvent
 
         return $this;
     }
-
-
 }

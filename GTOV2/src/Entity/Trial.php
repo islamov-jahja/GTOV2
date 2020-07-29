@@ -82,6 +82,4 @@ class Trial
 
         return $this;
     }
-
-
 }

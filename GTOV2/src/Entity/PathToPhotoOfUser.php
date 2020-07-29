@@ -63,6 +63,4 @@ class PathToPhotoOfUser
 
         return $this;
     }
-
-
 }

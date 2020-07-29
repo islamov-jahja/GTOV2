@@ -82,6 +82,4 @@ class GroupResultGuide
 
         return $this;
     }
-
-
 }

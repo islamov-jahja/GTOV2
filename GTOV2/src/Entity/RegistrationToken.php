@@ -63,6 +63,4 @@ class RegistrationToken
 
         return $this;
     }
-
-
 }

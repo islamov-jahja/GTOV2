@@ -22,7 +22,7 @@ class TeamLead
     private $teamLeadId;
 
     /**
-     * @var \Team
+     * @var Team
      *
      * @ORM\ManyToOne(targetEntity="Team")
      * @ORM\JoinColumns({
@@ -32,7 +32,7 @@ class TeamLead
     private $team;
 
     /**
-     * @var \User
+     * @var User
      *
      * @ORM\ManyToOne(targetEntity="User")
      * @ORM\JoinColumns({
@@ -69,6 +69,4 @@ class TeamLead
 
         return $this;
     }
-
-
 }

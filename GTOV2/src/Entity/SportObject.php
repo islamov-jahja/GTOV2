@@ -43,7 +43,7 @@ class SportObject
     private $description;
 
     /**
-     * @var \Organization
+     * @var Organization
      *
      * @ORM\ManyToOne(targetEntity="Organization")
      * @ORM\JoinColumns({
@@ -104,6 +104,4 @@ class SportObject
 
         return $this;
     }
-
-
 }

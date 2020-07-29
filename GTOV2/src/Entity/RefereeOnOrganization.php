@@ -63,6 +63,4 @@ class RefereeOnOrganization
 
         return $this;
     }
-
-
 }

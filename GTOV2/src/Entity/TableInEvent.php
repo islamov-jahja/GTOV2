@@ -22,7 +22,7 @@ class TableInEvent
     private $tableInEventId;
 
     /**
-     * @var \Event
+     * @var Event
      *
      * @ORM\ManyToOne(targetEntity="Event")
      * @ORM\JoinColumns({
@@ -32,7 +32,7 @@ class TableInEvent
     private $event;
 
     /**
-     * @var \VersionStandard
+     * @var VersionStandard
      *
      * @ORM\ManyToOne(targetEntity="VersionStandard")
      * @ORM\JoinColumns({
@@ -69,6 +69,4 @@ class TableInEvent
 
         return $this;
     }
-
-
 }
