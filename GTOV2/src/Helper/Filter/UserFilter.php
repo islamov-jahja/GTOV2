@@ -1,5 +1,5 @@
 <?php
-namespace App\Filter;
+namespace App\Helper\Filter;
 
 class UserFilter extends Filter
 {

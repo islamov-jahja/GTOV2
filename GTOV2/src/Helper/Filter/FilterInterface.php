@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Filter;
+namespace App\helper\Filter;
 
 
 interface FilterInterface

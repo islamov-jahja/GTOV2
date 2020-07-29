@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Filter;
+namespace App\Helper\Filter;
 abstract class Filter implements FilterInterface
 {
     public function toArray(): array

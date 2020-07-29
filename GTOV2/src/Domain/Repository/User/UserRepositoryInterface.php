@@ -1,15 +1,21 @@
 <?php
 
 
-namespace App\Repository\User;
+namespace App\Domain\Repository\User;
 
 
 use App\Domain\Entity\User;
-use App\Filter\UserFilter;
+use App\Helper\Filter\UserFilter;
 
 interface UserRepositoryInterface
 {
-    /**@
+    /**
+     * @param User $user
+     * @return User
+     */
+    public function add(User $user): User;
+
+    /**
      * @param UserFilter $userFilter
      * @return User
      */
@@ -20,14 +26,14 @@ interface UserRepositoryInterface
      */
     public function getAll(): array ;
 
-    /**@
+    /**
      * @param UserFilter $userFilter
      */
     public function delete(UserFilter $userFilter): void ;
 
     /**
      * @param User $user
-     * @return void
+     * @return User
      */
-    public function update(User $user): void ;
+    public function update(User $user): User ;
 }
